@@ -1,0 +1,13 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print('Red')\nprint('Yellow')\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 071d13e14a2791849a2d1293f360dc9fc8e1c678)
++++ b/main.py	(date 1663955260000)
+@@ -1,2 +1,0 @@
+-print('Red')
+-print('Yellow')
