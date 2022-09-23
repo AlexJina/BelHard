@@ -1,0 +1,5 @@
+number_1 = int(input())
+number_2 = int(input())
+number_3 = int(input())
+print((number_1 > 0) + (number_2 > 0) + (number_3 > 0))
+print((number_1 < 0) + (number_2 < 0) + (number_3 < 0))
