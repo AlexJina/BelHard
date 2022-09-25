@@ -9,3 +9,4 @@ print(s_dict)
 s_n = {}
 for i in input():
     s_n[i] = s_n.get(i, 0) + 1
+print(s_n)
