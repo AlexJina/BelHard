@@ -6,7 +6,7 @@ for i in input():
         s_dict[i] += 1
 print(s_dict)
 
-s_n = {}
+s_dict2 = {}
 for i in input():
-    s_n[i] = s_n.get(i, 0) + 1
-print(s_n)
+    s_dict2[i] = s_dict2.get(i, 0) + 1
+print(s_dict2)
