@@ -1,6 +1,6 @@
 number_1 = float(input())
-number_2 = float(input())
 operation = str(input())
+number_2 = float(input())
 if operation == '+':
     print(number_1 + number_2)
 elif operation == '-':

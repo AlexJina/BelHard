@@ -1,8 +1,7 @@
-n = int(input())
-m = int(input())
 k = int(input())
-i = 0
-while n > k:
-    if n % m == 0:
-        print(i)
-    i += 1
+m = int(input())
+n = int(input())
+for i in range(n):
+    if i % k and i < m:
+        i += 1
+    print(i)
