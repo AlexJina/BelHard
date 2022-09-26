@@ -1,7 +1,6 @@
 k = int(input())
 m = int(input())
 n = int(input())
-for i in range(n):
-    if i % k and i < m:
-        i += 1
-    print(i)
+for i in range():
+    if i > k and i % m:
+        print(i)
