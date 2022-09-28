@@ -1,6 +1,9 @@
-k = int(input())
-m = int(input())
 n = int(input())
-for i in range():
-    if i > k and i % m:
-        print(i)
+m = int(input())
+k = int(input())
+i = 0
+while i < n:
+    if i > k:
+        print(i % m)
+    i += 1
+print('конец')
