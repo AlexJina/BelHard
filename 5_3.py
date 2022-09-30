@@ -5,4 +5,3 @@ for i in range(2, n + 1, 10):
             break
         print(j, end=' ')
     print()
-
