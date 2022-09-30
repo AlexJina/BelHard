@@ -1,8 +1,8 @@
 n = int(input())
 m = int(input())
 k = int(input())
-i = 0
-while i < n:
-
-    i += 1
-print('конец')
+while n:
+    if not k % m:
+        print(k)
+        n -= 1
+    k += 1
