@@ -15,4 +15,3 @@ data = {
 for user in data.values():
     if 'email' not in user or not user['email']:
         print(user['name'])
-
